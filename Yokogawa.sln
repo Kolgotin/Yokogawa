@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectorFilesService", "CollectorFilesService\CollectorFilesService.csproj", "{7E60ADD5-5E18-45C0-A0B6-B98EB69C8899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCollectorLibrary", "FileCollectorLibrary\FileCollectorLibrary.csproj", "{0917D7F8-2820-41E7-AD85-A2701770E407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogCollectorLibrary", "LogCollectorLibrary\LogCollectorLibrary.csproj", "{3E090411-DAC5-4905-9AF4-A5384F1B4A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTDFilesDecryptor", "LTDFilesDecryptor\LTDFilesDecryptor.csproj", "{97B3817F-6FF6-4AB1-9828-56F3713FD28D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LTDFilesDecryptorSetup", "LTDFilesDecryptorSetup\LTDFilesDecryptorSetup.vdproj", "{4CC45B0A-820E-4D2A-BF20-B5378651C8F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTDFilesDecryptionLibrary", "LTDFilesDecryptionLibrary\LTDFilesDecryptionLibrary.csproj", "{B5BE00C0-BDAA-45CC-B370-52EF1A768AA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E60ADD5-5E18-45C0-A0B6-B98EB69C8899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E60ADD5-5E18-45C0-A0B6-B98EB69C8899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E60ADD5-5E18-45C0-A0B6-B98EB69C8899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E60ADD5-5E18-45C0-A0B6-B98EB69C8899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0917D7F8-2820-41E7-AD85-A2701770E407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0917D7F8-2820-41E7-AD85-A2701770E407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0917D7F8-2820-41E7-AD85-A2701770E407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0917D7F8-2820-41E7-AD85-A2701770E407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E090411-DAC5-4905-9AF4-A5384F1B4A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E090411-DAC5-4905-9AF4-A5384F1B4A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E090411-DAC5-4905-9AF4-A5384F1B4A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E090411-DAC5-4905-9AF4-A5384F1B4A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B3817F-6FF6-4AB1-9828-56F3713FD28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B3817F-6FF6-4AB1-9828-56F3713FD28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B3817F-6FF6-4AB1-9828-56F3713FD28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B3817F-6FF6-4AB1-9828-56F3713FD28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC45B0A-820E-4D2A-BF20-B5378651C8F1}.Debug|Any CPU.ActiveCfg = Debug
+		{4CC45B0A-820E-4D2A-BF20-B5378651C8F1}.Release|Any CPU.ActiveCfg = Release
+		{B5BE00C0-BDAA-45CC-B370-52EF1A768AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BE00C0-BDAA-45CC-B370-52EF1A768AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BE00C0-BDAA-45CC-B370-52EF1A768AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BE00C0-BDAA-45CC-B370-52EF1A768AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EAC22AC-09C8-4E9F-9821-FCACB07C2287}
+	EndGlobalSection
+EndGlobal
